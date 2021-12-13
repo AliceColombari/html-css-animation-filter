@@ -3,6 +3,17 @@
     height: 100px;
     border: 1px solid red;
 }
+
+/* animazione ex-1-square */
+.ex-1-square {
+    transition: 3s;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+}
+/* fine animazione ex-1-square */
+
 .ex-2-square {
     width: 100px;
     height: 100px;
