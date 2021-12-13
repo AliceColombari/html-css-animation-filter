@@ -115,6 +115,15 @@
 /* fine animazione ex-7-img */
 
 /* animazione ex-8-img */
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+   filter: grayscale(1);
+   border-radius: 30px;
+   overflow: hidden;
+}
 /* fine animazione ex-8-img */
 /* Fine Esercizio 6, 7, 8*/
 
