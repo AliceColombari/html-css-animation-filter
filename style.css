@@ -175,7 +175,7 @@
     font-size: 60px;
 }
 /* animazione ex-11-icon */
-.ex-11-icon{
+.ex-11-icon:hover{
     animation: spin-11 2s infinite;
 }
 
@@ -248,7 +248,7 @@
 /* fine animazione ex-12-top-white */
 /* animazione ex-12-bottom-white */
 .ex-12-bottom-white:hover{
-    animation: slide-bottom 10s linear;
+    animation: slide-bottom 2s linear;
 }
 
 @keyframes slide-bottom {
@@ -267,5 +267,71 @@
 /* fine animazione ex-12-bottom-white */
 
 /* animazione ex-13-top-white */
+.ex-13-top-white:hover{
+    animation: muoviti 10s linear;
+}
+
+@keyframes muoviti {
+    
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc(100% - 200px);
+    }
+
+    50% {
+        top: calc(100% - 200px);
+        left: calc(100% - 200px);
+    }
+
+    75% {
+        top: calc(100% - 200px);
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+
+}
 /* fine animazione ex-13-top-white */
+/* animazione ex-13-bottom-white */
+.ex-13-bottom-white:hover{
+    animation: muoviti 10s linear;
+}
+
+@keyframes muoviti {
+    
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc(100% - 200px);
+    }
+
+    50% {
+        top: calc(100% - 200px);
+        left: calc(100% - 200px);
+    }
+
+    75% {
+        top: calc(100% - 200px);
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+
+}
+/* fine animazione ex-13-bottom-white */
 /* Fine Esercizio 12, 13 */
