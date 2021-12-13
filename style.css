@@ -280,16 +280,16 @@
 
     25% {
         top: 0;
-        left: calc(100% - 200px);
+        left: calc(100% - 60px);
     }
 
     50% {
-        top: calc(100% - 200px);
-        left: calc(100% - 200px);
+        top: calc(100% - 60px);
+        left: calc(100% - 60px);
     }
 
     75% {
-        top: calc(100% - 200px);
+        top: calc(100% - 60px);
         left: 0;
     }
 
@@ -314,16 +314,16 @@
 
     25% {
         top: 0;
-        left: calc(100% - 200px);
+        left: calc(100% - 60px);
     }
 
     50% {
-        top: calc(100% - 200px);
-        left: calc(100% - 200px);
+        top: calc(100% - 60px);
+        left: calc(100% - 60px);
     }
 
     75% {
-        top: calc(100% - 200px);
+        top: calc(100% - 60px);
         left: 0;
     }
 
