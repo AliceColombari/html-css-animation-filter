@@ -228,6 +228,23 @@
 }
 
 /* animazione ex-12-top-white */
+.ex-12-bottom-white:hover{
+    animation: slide 10s linear;
+}
+
+@keyframes slide {
+    0%{
+        left: 5%;
+    }
+
+    50%{
+        left: 60%;
+    }
+
+    100%{
+        left: 5%;
+    }
+}
 /* fine animazione ex-12-top-white */
 
 /* animazione ex-13-top-white */
