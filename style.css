@@ -51,11 +51,25 @@
 /* animazione ex-3-square */
 /* Fine Esercizio 3 */
 
+/* Esercizio 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* animazione ex-4-square */
+.ex-4-square{
+    opacity: 1;
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* fine animazione ex-4-square */
+/* Fine Esercizio 4 */
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
