@@ -1,29 +1,56 @@
+/* Esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
 }
-
 /* animazione ex-1-square */
-.ex-1-square {
+.ex-1-square{
     transition: 3s;
 }
 
-.ex-1-square:hover {
+.ex-1-square:hover{
     background-color: red;
 }
 /* fine animazione ex-1-square */
+/* Fine Esercizio 1 */
 
+
+/* Esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* animazione ex-2-square */
+.ex-2-square{
+    transition: 3s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+/* fine animazione ex-2-square */
+/* Fine Esercizio 2 */
+
+
+/* Esercizio 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* animazione ex-3-square */
+.ex-3-square{
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* animazione ex-3-square */
+/* Fine Esercizio 3 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
