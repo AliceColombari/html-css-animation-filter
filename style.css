@@ -93,9 +93,30 @@
 /* Fine Esercizio 5*/
 
 
+/* Esercizio 6, 7, 8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+
+/* animazione ex-6-img */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* fine animazione ex-6-img */
+
+/* animazione ex-7-img */
+.ex-7-img{
+    transition: all 2s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+/* fine animazione ex-7-img */
+
+/* animazione ex-8-img */
+/* fine animazione ex-8-img */
+/* Fine Esercizio 6, 7, 8*/
 
 .ex-9-img {
     margin: 50px 100px;
