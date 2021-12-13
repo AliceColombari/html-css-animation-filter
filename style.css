@@ -228,8 +228,8 @@
 }
 
 /* animazione ex-12-top-white */
-.ex-12-top-white:hover{
-    animation: slide 10s linear;
+.ex-12-button:hover .ex-12-top-white{
+    animation: slide 2s linear;
 }
 
 @keyframes slide {
@@ -247,8 +247,8 @@
 }
 /* fine animazione ex-12-top-white */
 /* animazione ex-12-bottom-white */
-.ex-12-bottom-white:hover{
-    animation: slide-bottom 10s linear;
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: slide-bottom 2s linear;
 }
 
 @keyframes slide-bottom {
@@ -267,69 +267,79 @@
 /* fine animazione ex-12-bottom-white */
 
 /* animazione ex-13-top-white */
-.ex-13-top-white:hover{
-    animation: muoviti 10s linear;
+.ex-13-button:hover .ex-13-top-white{
+    animation: muoviti 2s linear;
 }
 
 @keyframes muoviti {
     
     0% {
-        left: 0;
-        top: 0;
+        left: 20%;
+        top: -10px;
     }
 
     25% {
-        top: 0;
-        left: calc(100% - 60px);
+        top: -10px;
+        left: calc(100% - 30px);
     }
 
     50% {
-        top: calc(100% - 60px);
-        left: calc(100% - 60px);
+        top: 100%;
+        left: calc(100% - 30px);
     }
 
     75% {
-        top: calc(100% - 60px);
+        top: 100%;
+        left: 0;
+    }
+
+    90% {
+        top: -10px;
         left: 0;
     }
 
     100% {
-        top: 0;
-        left: 0;
+        top: -10px;
+        left: 20%;
     }
 
 }
 /* fine animazione ex-13-top-white */
 /* animazione ex-13-bottom-white */
-.ex-13-bottom-white:hover{
-    animation: muoviti 10s linear;
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: muoviti_basso 2s linear;
 }
 
-@keyframes muoviti {
+@keyframes muoviti_basso {
     
     0% {
-        left: 0;
-        top: 0;
+        right: 20%;
+        bottom: -10px;
     }
 
     25% {
-        top: 0;
-        left: calc(100% - 60px);
+        bottom: -10px;
+        right: calc(100% - 30px);
     }
 
     50% {
-        top: calc(100% - 60px);
-        left: calc(100% - 60px);
+        bottom: 100%;
+        right: calc(100% - 30px);
     }
 
     75% {
-        top: calc(100% - 60px);
-        left: 0;
+        bottom: 100%;
+        right: 0;
+    }
+
+    90% {
+        bottom: -10px;
+        right: 0;
     }
 
     100% {
-        top: 0;
-        left: 0;
+        bottom: -10px;
+        right: 20%;
     }
 
 }
