@@ -148,12 +148,38 @@
 /* Fine Esercizio 9 */
 
 
+/* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
 }
+/* animazione ex-10-icon */
+.ex-10-icon{
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* fine animazione ex-10-icon */
+/* Fine Esercizio 10 */
+
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+/* animazione ex-11-icon */
+/* fine animazione ex-11-icon */
+/* Fine Esercizio 11 */
+
+
+/* Esercizio 12, 13 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -183,3 +209,10 @@
     width: 60px;
     height: 20px;
 }
+
+/* animazione ex-12-top-white */
+/* fine animazione ex-12-top-white */
+
+/* animazione ex-13-top-white */
+/* fine animazione ex-13-top-white */
+/* Fine Esercizio 12, 13 */
