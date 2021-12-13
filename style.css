@@ -175,6 +175,23 @@
     font-size: 60px;
 }
 /* animazione ex-11-icon */
+.ex-11-icon{
+    animation: spin-11 2s infinite;
+}
+
+@keyframes spin-11 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
 /* fine animazione ex-11-icon */
 /* Fine Esercizio 11 */
 
